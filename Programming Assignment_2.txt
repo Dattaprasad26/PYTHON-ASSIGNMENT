@@ -1,0 +1,46 @@
+Python Basic Assignment
+1. Write a Python program to print "Hello Python"?
+In [1]: print("Hello Python")
+Hello Python
+
+1. Write a Python program to do arithmetical operations addition and division.?
+In [2]: a = 10
+b = 5
+# Addition
+result_add = a + b
+print("Addition:", result_add)
+# Division
+result_div = a / b
+print("Division:", result_div)
+Addition: 15
+Division: 2.0
+
+1. Write a Python program to find the area of a triangle?
+In [3]: base = 10
+height = 5
+# Calculate the area of a triangle
+area = 0.5 * base * height
+print("Area of the triangle is:", area)
+Area of the triangle is: 25.0
+
+1. Write a Python program to swap two variables?
+In [4]: a = 5
+b = 10
+print("Before swapping: a =", a, "and b =", b)
+# Swap the values
+temp = a
+a = b
+b = temp
+print("After swapping: a =", a, "and b =", b)
+Before swapping: a = 5 and b = 10
+After swapping: a = 10 and b = 5
+
+1. Write a Python program to generate a random number?
+In [5]: import random
+# Generate a random number between 1 and 10
+random_num = random.randint(1, 10)
+print("Random number:", random_num)
+Random number: 10
+In [ ]:
+
+
